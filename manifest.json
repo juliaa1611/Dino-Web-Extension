@@ -1,11 +1,17 @@
 {
   "manifest_version": 3,
-  "name": "Dino",
+  "name": "Cute Dating Dinos",
   "version": "1.0",
   "content_scripts": [
     {
-      "matches": ["<all_urls>"],
-      "js": ["content.js"]
+      "js": ["content.js"],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["dino1.png"],
+      "matches" : ["*://*/*"]
     }
   ]
 }
