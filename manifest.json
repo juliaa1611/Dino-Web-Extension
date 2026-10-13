@@ -10,7 +10,14 @@
   ],
   "web_accessible_resources": [
     {
-      "resources": ["dino1.png"],
+      "resources": [
+        "dino1.png",
+        "dino1walk1.png",
+        "dino1walk2.png",
+        "dino1rev.png",
+        "dino2.png",
+        "dino2rev.png"
+      ],
       "matches" : ["*://*/*"]
     }
   ]
