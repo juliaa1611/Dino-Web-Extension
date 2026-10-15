@@ -12,9 +12,13 @@
     {
       "resources": [
         "dino1.png",
-        "dino1walk1.png",
-        "dino1walk2.png",
         "dino1rev.png",
+
+        "dino1walk1.png",
+        "dino1walk1rev.png",
+        "dino1walk2.png",
+        "dino1walk2rev.png",
+        
         "dino2.png",
         "dino2rev.png"
       ],
